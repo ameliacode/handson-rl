@@ -1,7 +1,7 @@
 import gym
 import random
 
-nv = gym.make('flashgames.NeonRace-v0')
+env = gym.make('flashgames.NeonRace-v0') # flashgames deprecated since 2020
 env.configure(remotes=1) 
 
 left = [('KeyEvent', 'ArrowUp', True), ('KeyEvent', 'ArrowLeft', True),
